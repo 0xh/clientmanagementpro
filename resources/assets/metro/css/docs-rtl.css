@@ -1,0 +1,111 @@
+*[dir="rtl"] * {direction: rtl;unicode-bidi: embed;}
+bdo[dir="rtl"] * {direction: rtl;unicode-bidi: bidi-override;}
+
+[dir="rtl"] .sidebar-wrapper {left:inherit; right:3px;}
+[dir="rtl"] .sidebar li.headline .icon {left: inherit;right: 0.625rem;}
+[dir="rtl"] .sidebar li.headline a {padding: 0.625rem 3.75rem 0.625rem 1rem;}
+[dir="rtl"] .sidebar li a {padding: 0.625rem 3.25rem 0.625rem 1rem;}
+[dir="rtl"] .sidebar li a .icon {right: .625rem;left: :inherit;}
+[dir="rtl"] .sidebar li.active a .icon {transform: rotate(180deg);}
+[dir="rtl"] .dropdown-toggle:before {right: 95%; transform: rotate(45deg);}
+[dir="rtl"] .button.dropdown-toggle {padding-left: 1.625rem;padding-right: .325rem;}
+[dir="rtl"] .button.dropdown-toggle:before, [dir="rtl"] .split.dropdown-toggle:before {right:inherit;left:1.625rem; transform:rotate(-45deg);}
+[dir="rtl"] .page-container:not(.sidebar-compact) .sidebar.subdown .d-menu li:not(.active) > a > span.mif-chevron-right.icon {transform:rotate(180deg)}
+[dir="rtl"] .app-bar .app-bar-menu > li .dropdown-toggle.active-toggle:before, [dir="rtl"] [dir="rtl"] .app-bar .app-bar-menu > li > a .dropdown-toggle.active-toggle:before {transform:rotate(-45deg); }
+[dir="rtl"] .d-menu {text-align: right;right: 0; left: inherit;}
+[dir="rtl"] .app-bar .app-bar-element {float:right;}
+[dir="rtl"] .app-bar .app-bar-menu {float: right;}
+[dir="rtl"] .place-right {float: left !important;}
+[dir="rtl"] .place-left {float: right !important;}
+[dir="rtl"] .app-bar .app-bar-menu > li .d-menu .d-menu {left: inherit;right: 100%; }
+[dir="rtl"] .grid .row > .cell:first-child {margin-right: 0px; margin-left: inherit;}
+[dir="rtl"] .grid .row > .cell {margin: 0 2.12765% 0 0;}
+[dir="rtl"] .grid.condensed .row > .cell {float: right;}
+[dir="rtl"] .widget-info .title {float: left;}
+[dir="rtl"] .widget-info .counter {float: left;}
+[dir="rtl"] .widget-info .icon {right: 6px;left: inherit;}
+[dir="rtl"] .panel.collapsible > .heading:before {right: inherit;left: .625rem;}
+[dir="rtl"] .panel > .heading > .title {margin-left: inherit;margin-right: .625rem;}
+[dir="rtl"] ul.chat-list .icon {margin-left: 10px; margin-right: inherit;}
+[dir="rtl"] ul.timeline-list li > .date {float: right;}
+[dir="rtl"] ul.timeline-list li > .date .icon {right: inherit;left: 0;}
+[dir="rtl"] ul.timeline-list li > .content {border-left:0;border-right: 1px solid #b9b9b9;}
+[dir="rtl"] .d-menu li.active {border-right: 2px solid;border-left:0;} 
+[dir="rtl"] .calendar .calendar-cell {float: right;}
+[dir="rtl"] .calendar .calendar-cell:last-child {margin-left: 0px;}
+[dir="rtl"] .calendar .calendar-cell:first-child {margin-left: 2.12765%;}
+[dir="rtl"] .widget-sidebar {right: inherit;left: 0;}
+[dir="rtl"] .wrapper-content {margin-left: 240px;margin-right: 20px;}
+[dir="rtl"] .panel.widget-box .widget-tag {float: left;margin-left: 10px;}
+[dir="rtl"] .input-control.text > label, [dir="rtl"] .input-control.select > label, [dir="rtl"] .input-control.file > label, [dir="rtl"] .input-control.password > label, [dir="rtl"] .input-control.number > label, [dir="rtl"] .input-control.email > label, [dir="rtl"] .input-control.tel > label, [dir="rtl"] .input-control.text > .label, [dir="rtl"] .input-control.select > .label, [dir="rtl"] .input-control.file > .label, [dir="rtl"] .input-control.password > .label, [dir="rtl"] .input-control.number > .label, [dir="rtl"] .input-control.email > .label, [dir="rtl"] .input-control.tel > .label {left: inherit;right: 0;}
+[dir="rtl"] .input-control.text > label, [dir="rtl"] .input-control.select > label, [dir="rtl"] .input-control.file > label, [dir="rtl"] .input-control.password > label, [dir="rtl"] .input-control.number > label, [dir="rtl"] .input-control.email > label, [dir="rtl"] .input-control.tel > label, [dir="rtl"] .input-control.text > .label, [dir="rtl"] .input-control.select > .label, [dir="rtl"] .input-control.file > .label, [dir="rtl"] .input-control.password > .label, [dir="rtl"] .input-control.number > .label, [dir="rtl"] .input-control.email > .label, [dir="rtl"] .input-control.tel > .label {left: inherit;right: 0;}
+[dir="rtl"] .input-control.modern input {left: inherit;right: 0;}
+[dir="rtl"] .input-control.modern .placeholder {left: inherit;right: 0;}
+[dir="rtl"] .input-control.modern.iconic {margin-right: 32px; margin-left: inherit;}
+[dir="rtl"] .input-control.modern.iconic .icon {right: -28px;left: inherit;}
+[dir="rtl"] .knob-box canvas ~input[type="text"] {margin-left: 0;margin-right: -65px;}
+[dir="rtl"] .input-control.text .append-icon, [dir="rtl"] .input-control.select .append-icon, [dir="rtl"] .input-control.file .append-icon, [dir="rtl"] .input-control.password .append-icon, [dir="rtl"] .input-control.number .append-icon, [dir="rtl"] .input-control.email .append-icon, [dir="rtl"] .input-control.tel .append-icon {right: inherit;left: 4px;}
+[dir="rtl"] .wizard>.steps>ul>li, [dir="rtl"] .wizard>.actions>ul>li {float: right;}
+[dir="rtl"] .grid.condensed .row > .cell {margin:0;}
+body.fixed[dir="rtl"] .page-container > * {float:right;}
+[dir="rtl"] .simple-list li:before, [dir="rtl"] .numeric-list li:before {left: inherit;right: -1.625rem;}
+[dir="rtl"] .step-list > li {border-left: 0; border-right: 1px solid #ccc;}
+[dir="rtl"] .step-list > li:before {right: 0;margin-right: -1.5rem;margin-left: inherit;left: inherit;}
+[dir="rtl"] dl.horizontal dt {float: right;}
+[dir="rtl"] dl.horizontal dd {margin-left: 0;margin-right: 11.25rem;}
+[dir="rtl"] .toolbar-section {float: right;padding-right: .5725rem;padding-left: 0;}
+[dir="rtl"] .toolbar-section:before {left: inherit;right: 0;}
+[dir="rtl"] .split-button .button, [dir="rtl"] .dropdown-button .button, [dir="rtl"] .split-button .split, [dir="rtl"] .dropdown-button .split {float: right;}
+[dir="rtl"] .d-menu.place-right {right: auto;left: 0;}
+[dir="rtl"] .pagination > .item {float: right;}
+[dir="rtl"] .breadcrumbs > li:after {transform:rotate(45deg);}
+[dir="rtl"] .breadcrumbs > li:before {transform:rotate(-45deg);}
+[dir="rtl"] .breadcrumbs > li:before,[dir="rtl"] .breadcrumbs > li:after {left: inherit;right: 100%;margin-right:0.5rem;}
+[dir="rtl"] .accordion > .frame > .heading:before {left: inherit;right: 4px;transform:rotate(135deg);top:12px;}
+[dir="rtl"] .accordion > .frame.active > .heading:before {transform:rotate(90deg);top:10px;}
+[dir="rtl"] .accordion > .frame > .heading .icon {right: inherit;left: 0;}
+[dir="rtl"] .accordion > .frame > .heading {padding:8px 20px 8px 16px;}
+[dir="rtl"] .accordion.large-heading > .frame > .heading {padding-left: inherit;padding-right: 32px;}
+[dir="rtl"] .accordion.large-heading > .frame > .heading:before {top:24px;}
+[dir="rtl"] .tabcontrol .tabs li {float: right;}
+[dir="rtl"] .tabcontrol2 .tabs li {float: right;}
+[dir="rtl"] .tabcontrol2 .tabs li:first-child {margin-left: inherit;margin-right: 10px;}
+[dir="rtl"] .treeview .node-toggle {left: inherit;right: 0px;}
+[dir="rtl"] .treeview .node-toggle:before {top:0;transform:rotate(90deg);left: inherit;right: -2px;}
+[dir="rtl"] .treeview .node.collapsed > .node-toggle:before {transform:rotate(135deg);top:4px;right: -2px;}
+[dir="rtl"] .treeview li .input-control {margin: 0 0 0 .3125rem;}
+[dir="rtl"] .listview .list {padding: 8px 48px 4px 8px;}
+[dir="rtl"] .listview .list .list-icon {left: inherit;right: 0;}
+[dir="rtl"] .listview .list-group .list-group-toggle {padding-left: inherit;padding-right: 16px;top:4px;}
+[dir="rtl"] .listview .list-group .list-group-toggle:before {left: inherit;right: 0;transform:rotate(90deg) }
+[dir="rtl"] .progress .bar,[dir="rtl"] .progress-bar .bar {float: right;}
+[dir="rtl"] .tile {float: right;}
+[dir="rtl"] .tile-group {margin-left: inherit;float: right;margin-right: 80px;}
+[dir="rtl"] .tile-group .tile-group-title {left: inherit;right: 5px;}
+[dir="rtl"] .tile .tile-label {left: inherit;right: .625rem;}
+[dir="rtl"] .tile .tile-badge {right: inherit;left: .625rem;}
+[dir="rtl"] .tile-wide {float: right;}
+[dir="rtl"] .tile-wide .tile-label {left: inherit;right: .625rem;}
+[dir="rtl"] .tile-wide .tile-badge {right: inherit;left: .625rem;}
+[dir="rtl"] .carousel .carousel-bullets .carousel-bullet:last-child {margin-right: .625rem;}
+[dir="rtl"] .carousel .carousel-bullets .carousel-bullet:first-child {margin-left: 0;}
+[dir="rtl"] .carousel .carousel-switch-next {right: inherit;left: 0;}
+[dir="rtl"] .carousel .carousel-switch-prev {right: 0;left: inherit;}
+[dir="rtl"] .notify .notify-icon {left: inherit;right: 0;}
+[dir="rtl"] .notify .notify-icon ~ .notify-title,[dir="rtl"] .notify .notify-icon ~ .notify-text {margin-right: 42px;margin-left: inherit;}
+[dir="rtl"] .notify .notify-closer {right: inherit;left: .25rem;}
+[dir="rtl"] .dataTables_paginate {float: right;}
+[dir="rtl"] .dataTables_paginate .paginate_button {float: right;}
+[dir="rtl"] .dataTables_info {float: left;}
+[dir="rtl"] .gallery .image-caption {left: inherit;right: 0;}
+[dir="rtl"] .rating .star {float: right;}
+[dir="rtl"] .pull-right {float: left !important;}
+[dir="rtl"] .pull-left {float: right !important;}
+[dir="rtl"] .rating .star:before,[dir="rtl"] .rating .star:after {left: inherit;right: 0;}
+[dir="rtl"] .img-group-stack > img ~ img,[dir="rtl"] .img-group-stack > img ~ .more {margin-left: inherit;margin-right: -18px;}
+
+/* here's some rtl template for your own css class */
+/*
+[dir="rtl"] .your-class 
+[dir="rtl"] #your-id
+*/

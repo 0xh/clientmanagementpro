@@ -1,0 +1,101 @@
+.tip-metro {
+	z-index:1000;
+	text-align:left;
+	border:1px solid #b9b9b9;
+	padding:6px 8px;
+	min-width:50px;
+	max-width:300px;
+	color:#1d1d1d;
+	background-color:#fff;
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+	/**
+	 * - If you set a background-image, border/padding/background-color will be ingnored.
+	 *   You can set any padding to .tip-inner instead if you need.
+	 * - If you want a tiled background-image and border/padding for the tip,
+	 *   set the background-image to .tip-inner instead.
+	 */
+}
+
+.tip-metro .editable-input {
+	padding: 3px 0px;
+}
+
+.tip-metro .editable-input input {
+	height: 1.7rem;
+	line-height: 1.7rem;
+}
+
+
+.tip-metro .tip-inner {
+	font:12px/16px arial,helvetica,sans-serif;
+}
+
+/* Configure an arrow image - the script will automatically position it on the correct side of the tip */
+.tip-metro .tip-arrow-top {
+	margin-top:-5px;
+	margin-left:-5px; /* approx. half the width to center it */
+	top:0;
+	left:50%;
+	width:10px;
+	height:10px;
+	background: #fff url('');
+	content: "";
+	border-left: 1px solid #b9b9b9;
+	border-top: 1px solid #b9b9b9;
+	transform: rotate(45deg);
+	webkit-transform: rotate(45deg);
+}
+.tip-metro .tip-arrow-right {
+	margin-top:-5px; /* approx. half the height to center it */
+	margin-left:0;
+	top:50%;
+	left:100%;
+	width:10px;
+	height:10px;
+	background: #fff url('') ;
+	content: "";
+	border-right: 1px solid #b9b9b9;
+	border-top: 1px solid #b9b9b9;
+	transform: rotate(45deg);
+	webkit-transform: rotate(45deg);
+}
+.tip-metro .tip-arrow-bottom {
+	margin-top: -5px;
+	margin-left:-5px; /* approx. half the width to center it */
+	top: 100%;
+	left: 50%;
+	width:10px;
+	height:10px;
+	background: #fff url('');
+	content: "";
+	border-right: 1px solid #b9b9b9;
+	border-bottom: 1px solid #b9b9b9;
+	transform: rotate(45deg);
+	webkit-transform: rotate(45deg);
+}
+
+
+.tip-metro .tip-arrow-left {
+	margin-top:-5px; /* approx. half the height to center it */
+	margin-left:-5px;
+	top:50%;
+	left:0;
+	width:10px;
+	height:10px;
+	content: "";
+	background: #fff url('') ;
+	border-left: 1px solid #b9b9b9;
+	border-bottom: 1px solid #b9b9b9;
+	background: #fff url('');
+	transform: rotate(45deg);
+	webkit-transform: rotate(45deg);
+}
+
+.tip-metro .editable-input select {
+	height: 1.7rem;
+	padding-right: 20px;
+}
+
+.editableform-loading {
+	background: url(./img/loading.gif) center center no-repeat !important;
+}

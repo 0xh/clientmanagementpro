@@ -1,0 +1,2 @@
+manual selection of jobs and task to clone
+add view for view task description for employees and clients

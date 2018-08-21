@@ -1,0 +1,79 @@
+/*===========================================*/
+/*	DESKTOP LAYOUT 
+/*===========================================*/
+
+
+@media (min-width: 1200px) {
+	
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+@media (min-width: 992px) {
+		
+}
+
+/*===========================================*/
+/*	MOBILE & TABLET COMMON
+/*===========================================*/
+@media (min-width: 200px) and (max-width: 991px) {
+	
+}
+
+
+/*===========================================*/
+/*	TABLET
+/*===========================================*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+/*===========================================*/
+/*	MOBILE
+/*===========================================*/
+@media (min-width: 200px) and (max-width: 767px) {
+	
+}
+@media (min-width: 600px) and (max-width: 767px) {
+}
+@media (min-width: 480px) and (max-width: 599px) {
+
+}
+@media (min-width: 200px) and (max-width: 479px) {
+
+}
+
+.nav-wrp .navbar-brand img{
+	max-height:60px;
+}
+
+#featured img{
+	width: 170px;
+}
+
+#feature{
+	background:#edede5;
+}
+
+.other-section-1 ol>li{    min-height: 50px;}
+
+.other-section-1 ol > li > i, .other-section-1 ol > li > .iconwrp{
+	margin-right: 10px;
+color: rgba(255,255,255,0.3);
+width: 100px;
+height: 75px;
+display: inline-block;
+text-align: center;
+font-style: normal;
+vertical-align: middle;
+line-height: 75px;
+font-weight: normal;
+font-size: 50px;
+}
+
+.calltoaction-section-1{
+	    background-color: #005e4b;
+}
